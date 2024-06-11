@@ -47,7 +47,7 @@ export default function Home() {
   return (
     < >
    <h2 className="flex items-center justify-center text-5xl font-bold m-10">Top Player</h2>
-   <img src="./ref.PNG" className="w-100"/>
+   {/* <img src="./ref.PNG" className="w-100"/> */}
    {isBrowser ?
    <DragDropContext onDragEnd={handleDragDrop}>
    <Droppable droppableId="ROOT" type="group"  >
